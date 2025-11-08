@@ -33,7 +33,7 @@ void binary ::comp(void)
 }
 void binary ::display()
 {
-    cout<<"\ndisplaying binary number:"<<endl;
+    cout << "\ndisplaying binary number:" << endl;
     for (int i = 0; i < s.length(); i++)
     {
         cout << s.at(i);
