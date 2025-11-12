@@ -1,0 +1,67 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+void Merge(vector<int> &nums, int left, int mid, int right)
+{
+    vector<int> temp;
+    int i = left;
+    int j = mid + 1;
+    while (i <= mid && j <= right)
+    {
+        if (nums[i] <= nums[j])
+        {
+            temp.push_back(nums[i]);
+            i++;
+        }
+        else
+        {
+            temp.push_back(nums[j]);
+            j++;
+        }
+    }
+    while (i <= mid)
+    {
+        temp.push_back(nums[i]);
+        i++;
+    }
+    while (j <= right)
+    {
+        temp.push_back(nums[j]);
+        j++;
+    }
+    for (int i = left; i < right; i++)
+    {
+        nums[i] = temp[i - left];
+    }
+}
+void MergeSort(vector<int> &nums, int left, int right)
+{
+    if (left >= right)
+    {
+        return;
+    }
+    int mid = (left + right) / 2;
+    MergeSort(nums, left, mid);
+    MergeSort(nums, mid + 1, right);
+
+    Merge(nums, left, mid, right);
+}
+int main()
+{
+    int n;
+    cout << "Enter the size of array:-";
+    cin >> n;
+    vector<int> nums(n);
+    cout << "Enter the elements of array:-";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> nums[i];
+    }
+    MergeSort(nums, 0, n - 1);
+    cout << "array after sorting:-";
+    for (int i = 0; i < n; i++)
+    {
+        cout << nums[i] << " ";
+    }
+    return 0;
+}
