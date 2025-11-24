@@ -1,0 +1,67 @@
+Cursor movement
+	•	⌥ + ← / → — Move by word
+	•	⌘ + ← / → — Line start/end
+	•	⌘ + ↑ / ↓ — Top/bottom of file
+
+Select faster
+	•	⌥ + Shift + ← / → — Select one word
+	•	Shift + ↓ / ↑ — Select line
+	•	⌘ + A — Select all
+
+Delete smarter
+	•	⌥ + Backspace — Delete previous word
+	•	⌘ + Backspace — Delete whole line
+
+⸻
+
+🔥 2. MULTI-CURSOR SHORTCUTS (GAME CHANGER)
+	•	⌥ + Click — Place multiple cursors
+	•	⌘ + D — Select next match
+	•	⌘ + Shift + L — Select all matches
+	
+	⸻
+
+🔥 3. CODE EDITING POWER
+	•	⌘ + / — Comment/uncomment
+	•	⌘ + Shift + K — Delete entire line
+	•	⌥ + Shift + ↓/↑ — Duplicate line
+	•	⌘ + ] / ⌘ + [ — Indent/outdent
+⸻
+
+	🔥 4. NAVIGATION (PRO LEVEL SPEED)
+	•	⌘ + P — Search files instantly
+	•	⌘ + Shift + O — Jump to symbols/functions
+	•	⌘ + T — Search symbols across project
+	•	⌘ + B — Toggle sidebar
+	•	Ctrl + ` — Toggle terminal
+	•	⌘ + Shift + \ — Jump to matching bracket
+
+⸻
+
+🔥 5. GIT WORKFLOW
+	•	⌘ + Shift + G — Open source control
+	•	⌘ + Enter — Commit
+	•	⌘ + Shift + P → “Git: …” — All Git commands
+
+⸻
+
+🔥 6. FIND & REPLACE
+	•	⌘ + F — Find
+	•	⌘ + ⌥ + F — Replace
+	•	⌘ + Shift + F — Search entire project
+	•	⌘ + D — Select next occurrence (again: super important)
+
+⸻
+
+🔥 7. WINDOW MANAGEMENT
+	•	⌘ + \ — spllit editor
+	•	⌘ + 1 / 2 / 3 — Switch editor groups
+	•	⌘ + W — Close tab
+	•	⌘ + Shift + T — Reopen closed tab
+
+⸻
+
+🔥 8. RUN / DEBUG
+	•	F5 — Run / Debug
+	•	Shift + F5 — Stop
+	•	⌘ + Shift + D — Debug panel
